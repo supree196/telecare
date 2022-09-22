@@ -1,0 +1,144 @@
+{
+  "doctor": [
+    {
+      "doctorEmailId": "abc@gmail.com",
+      "password": "123456",
+      "doctorName": "John doe",
+      "contactNo": "9898989898",
+      "dob": "22/12/2010",
+      "gender": "male",
+      "experience": "3 years",
+      "specialization": "Eyes",
+      "city": "Shimla"
+    },
+    {
+      "doctorEmailId": "demo@gmail.com",
+      "password": "123456",
+      "doctorName": "Mark jones",
+      "contactNo": "97777777777",
+      "dob": "22/12/2010",
+      "gender": "male",
+      "experience": "15 years",
+      "specialization": "Heart",
+      "city": "Dehradun"
+    },
+    {
+      "doctorEmailId": "demo1@gmail.com",
+      "password": "99898",
+      "doctorName": "Pavan kumar",
+      "contactNo": "9989777767",
+      "dob": "18/02/2010",
+      "gender": "male",
+      "experience": "1.5 years",
+      "specialization": "ENT",
+      "city": "Bangalore"
+    },
+    {
+      "id": 34,
+      "doctorEmailId": "pavanc5555@gmail.com",
+      "password": "123456",
+      "doctorName": "C-Pavan 21",
+      "contactNo": "9999999977",
+      "dob": "1992-08-23",
+      "gender": "Male",
+      "experience": "8 Years",
+      "specialization": "Dermatologist 2",
+      "city": "Hyderabad"
+    },
+    {
+      "id": "100",
+      "doctorEmailId": "CPavan@xyz.com",
+      "password": "78802-96",
+      "doctorName": "",
+      "contactNo": "",
+      "dob": "",
+      "gender": "",
+      "experience": "",
+      "specialization": "",
+      "city": ""
+    },
+    {
+      "id": "60",
+      "doctorEmailId": "rajath@gmail.com",
+      "password": "1234567",
+      "doctorName": "",
+      "contactNo": "",
+      "dob": "",
+      "gender": "",
+      "experience": "",
+      "specialization": "",
+      "city": ""
+    },
+    {
+      "id": "40",
+      "doctorEmailId": "suresh@123gmai.com",
+      "password": "123456",
+      "doctorName": "",
+      "contactNo": "",
+      "dob": "",
+      "gender": "",
+      "experience": "",
+      "specialization": "",
+      "city": ""
+    }
+  ],
+  "patient": [
+    {
+      "patientEmailId": "patient@xyz.com",
+      "password": "123456",
+      "patientName": "Mark Woo",
+      "contactNo": "0035464576",
+      "dob”": "22/09/12",
+      "gender”": "male",
+      "city”": "Patiala"
+    },
+    {
+      "patientEmailId": "patient1@xyz.com",
+      "password": "123456",
+      "patientName": "Michele Woo",
+      "contactNo": "0035464576",
+      "dob”": "22/09/12",
+      "gender”": "female",
+      "city”": "Delhi"
+    },
+    {
+      "patientEmailId": "patient3@xyz.com",
+      "password": "qwerty",
+      "patientName": "Justin woke",
+      "contactNo": "7767676766",
+      "dob”": "20/01/14",
+      "gender”": "male",
+      "city”": "Mandi"
+    },
+    {
+      "id": 24368786,
+      "patientEmailId": "CPavan@xyz.com",
+      "password": "Pavan@123",
+      "patientName": "",
+      "contactNo": "",
+      "dob": "",
+      "gender": "",
+      "city": ""
+    },
+    {
+      "id": 24,
+      "patientEmailId": "mark788@gmail.com",
+      "password": "123456",
+      "patientName": "Mark jones 32",
+      "contactNo": "8899898989",
+      "dob": "1982-05-23",
+      "gender": "Female",
+      "city": "Delhi"
+    },
+    {
+      "id": 94,
+      "patientEmailId": "pavanc1605@gmail.com",
+      "password": "Pavan1324",
+      "patientName": "",
+      "contactNo": "",
+      "dob": "",
+      "gender": "",
+      "city": ""
+    }
+  ]
+}

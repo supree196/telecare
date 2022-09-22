@@ -1,0 +1,63 @@
+server:
+  port: 8080
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka
+    register-with-eureka: true
+    fetch-registry: true
+spring:
+  application:
+    name: api-gateway
+  main:
+    web-application-type: reactive
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+          lowerCaseServiceId: true
+      globalcors:
+        cors-configurations:
+          '[/**]':
+            allowedOrigins: "*"
+            allowedMethods: "*"
+            allowedHeaders: "*"
+            exposedHeaders: "*"
+      routes:
+        - id: user-service
+          uri: lb://user-service
+          predicates:
+            - Path=/user-service/**
+          filters:
+            - RewritePath=/user-service(?<segment>/?.*), $\{segment}
+        - id: authentication-service
+          uri: lb://authentication-service
+          predicates:
+            - Path=/authentication-service/**
+          filters:
+            - RewritePath=/authentication-service(?<segment>/?.*), $\{segment}
+        - id: appointment-service
+          uri: lb://appointment-service
+          predicates:
+            - Path=/appointment-service/**
+          filters:
+            - RewritePath=/appointment-service(?<segment>/?.*), $\{segment}
+        - id: chat-service
+          uri: lb://chat-service
+          predicates:
+            - Path=/chat-service/**
+          filters:
+            - RewritePath=/chat-service(?<segment>/?.*), $\{segment}
+        - id: email-service
+          uri: lb://email-service
+          predicates:
+            - Path=/email-service/**
+          filters:
+            - RewritePath=/email-service(?<segment>/?.*), $\{segment}
+        - id: product-webapp
+          uri: lb://product-webapp
+          predicates:
+            - Path=/**
+          filters:
+            - RewritePath=(?<segment>/?.*), $\{segment}

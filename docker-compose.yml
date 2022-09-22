@@ -1,0 +1,96 @@
+version: "2"
+services:
+  appointment-service:
+    container_name: appointment-service
+    build: appointment-service/
+    hostname: localhost
+    network_mode: host
+    ports:
+      - 8060:8060
+  eureka-server:
+    container_name: eureka-server
+    build: eureka-server/
+    hostname: localhost
+    network_mode: host
+    ports:
+      - 8761:8761
+  email-service:
+    container_name: email-service
+    build: email-service/
+    hostname: localhost
+    network_mode: host
+    ports:
+      - 8075:8075
+  #  config-server:
+  #    container_name: config-server
+  #    build: config-server/
+  #    hostname: localhost
+  #    network_mode: host
+  #    ports:
+  #      - 8888:8888
+  chat-service:
+    container_name: chat-service
+    build: chat-service/
+    hostname: localhost
+    network_mode: host
+    ports:
+      - 8070:8070
+  authentication-service:
+    container_name: authentication-service
+    build: authentication-service/
+    hostname: localhost
+    network_mode: host
+    ports:
+      - 8095:8095
+  api-gateway:
+    container_name: api-gateway
+    build: api-gateway/
+    hostname: localhost
+    network_mode: host
+    ports:
+      - 8080:8080
+  user-service:
+    container_name: user-service
+    build: user-service/
+    hostname: localhost
+    network_mode: host
+    ports:
+      - 9090:9090
+  rabbitmq:
+    image: rabbitmq:3-management
+    container_name: rabbitmq
+    ports:
+      - 15672:15672
+      - 5672:5672
+
+  product-webapp:
+    build: product-webapp/
+    image: product-webapp
+    container_name: product-webapp
+    network_mode: host
+    hostname: localhost
+    ports:
+      - 4200:4200
+
+  mongodb:
+    image: mongo:latest
+    container_name: mongo-container
+    network_mode: host
+    hostname: localhost
+    ports:
+      - 27017:27017
+
+  mysql:
+    image: mysql:latest
+    container_name: mysql
+    restart: always
+    hostname: localhost
+    network_mode: host
+    ports:
+      - 3306:3306
+    environment:
+      MYSQL_ROOT_PASSWORD: Password
+      MYSQL_DATABASE: authuser
+      MYSQL_PASSWORD: root
+      MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
+

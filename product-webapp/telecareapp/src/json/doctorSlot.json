@@ -1,0 +1,116 @@
+{
+  "doctorSlot": [
+    {
+      "id": 1,
+      "doctorEmailId": "abc@gmail.com",
+      "slotDate": "22/04/2022",
+      "slotStartTime": "4:00 PM",
+      "slotEndTime": "4:40 PM",
+      "slotAvailable": true
+    },
+    {
+      "id": 2,
+      "doctorEmailId": "nky@gmail.com",
+      "slotDate": "23/02/2022",
+      "slotStartTime": "12:00 PM",
+      "slotEndTime": "12:40 PM",
+      "slotAvailable": true
+    },
+    {
+      "id": 3,
+      "doctorEmailId": "jky@gmail.com",
+      "slotDate": "22/02/2022",
+      "slotStartTime": "11:00 AM",
+      "slotEndTime": "11:20 AM",
+      "slotAvailable": true
+    },
+    {
+      "id": 4,
+      "doctorEmailId": "ambrish@gmail.com",
+      "slotDate": "24/04/2022",
+      "slotStartTime": "2:00 PM",
+      "slotEndTime": "2:10 PM",
+      "slotAvailable": true
+    },
+    {
+      "id": 5,
+      "doctorEmailId": "pavan@gmail.com",
+      "slotDate": "24/04/2022",
+      "slotStartTime": "1:00 PM",
+      "slotEndTime": "1:30 PM",
+      "slotAvailable": true
+    },
+    {
+      "doctorEmailId": "neerajkumar@gmail.com",
+      "slotDate": "15/04/2022",
+      "slotStartTime": "17:00",
+      "slotEndTime": "18:00",
+      "slotAvailable": false,
+      "id": 6
+    },
+    {
+      "doctorEmailId": "",
+      "slotDate": "2022-04-16",
+      "slotStartTime": "11:26",
+      "slotEndTime": "11:26",
+      "slotAvailable": true,
+      "id": 7
+    },
+    {
+      "doctorEmailId": "",
+      "slotDate": "2022-04-17",
+      "slotStartTime": "10:54",
+      "slotEndTime": "10:59",
+      "slotAvailable": true,
+      "id": 8
+    },
+    {
+      "doctorEmailId": "",
+      "slotDate": "2022-04-17",
+      "slotStartTime": "10:54",
+      "slotEndTime": "10:59",
+      "slotAvailable": true,
+      "id": 9
+    },
+    {
+      "doctorEmailId": "",
+      "slotDate": "2022-04-18",
+      "slotStartTime": "16:11",
+      "slotEndTime": "16:18",
+      "slotAvailable": true,
+      "id": 10
+    },
+    {
+      "doctorEmailId": "",
+      "slotDate": "2022-04-18",
+      "slotStartTime": "16:11",
+      "slotEndTime": "16:18",
+      "slotAvailable": true,
+      "id": 11
+    },
+    {
+      "doctorEmailId": "",
+      "slotDate": "2022-04-19",
+      "slotStartTime": "17:12",
+      "slotEndTime": "17:24",
+      "slotAvailable": true,
+      "id": 12
+    },
+    {
+      "doctorEmailId": "",
+      "slotDate": "",
+      "slotStartTime": "",
+      "slotEndTime": "",
+      "slotAvailable": true,
+      "id": 13
+    },
+    {
+      "doctorEmailId": "",
+      "slotDate": "",
+      "slotStartTime": "",
+      "slotEndTime": "",
+      "slotAvailable": true,
+      "id": 14
+    }
+  ]
+}

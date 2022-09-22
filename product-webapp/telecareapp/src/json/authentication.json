@@ -1,0 +1,41 @@
+{
+  "login": [
+    {
+      "userEmail": "pavanc1605@gmail.com",
+      "password": "Pavan@123",
+      "userType": "DOCTOR"
+    },
+    {
+      "userEmail": "pavanc@gmail.com",
+      "password": "Pavan@1234",
+      "userType": "PATIENT"
+    },
+    {
+      "userEmail": "rajat@123gmail.com",
+      "password": "rajath@123",
+      "userType": "DOCTOR"
+    },
+    {
+      "userEmail": "saurav@123gmail.com",
+      "password": "saurav@123",
+      "userType": "PATIENT"
+    },
+    {
+      "userEmail": "sumith@123gmail.com",
+      "password": "sumith@123",
+      "userType": "PATIENT"
+    },
+    {
+      "id": 24,
+      "userEmail": "pavanc1605@gmail.com",
+      "password": "hyhjjkjk",
+      "userType": ""
+    },
+    {
+      "id": 38,
+      "userEmail": "c.pav@gmail.com",
+      "password": "234567",
+      "userType": ""
+    }
+  ]
+}

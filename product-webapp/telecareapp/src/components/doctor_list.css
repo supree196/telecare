@@ -1,0 +1,190 @@
+.doctor_cont{
+  background-color: rgb(240, 246, 246);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    .card_cont{
+    height: 85%;
+    max-height: 85%;
+    overflow-y: auto;
+    width: 100% !important;
+    }
+    
+    .DoctorPageHead{
+      height: 15%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 98%;
+    }
+    
+    .accordian_cont{
+      width: 65%;
+      background: #ffffff96;
+      margin: 10px 0px;
+      height: 32%;
+      border-radius: 24px;
+    }
+    
+    .accordian_cont_collapse{
+      width: 65%;
+      background: #ffffff96;
+      margin: 10px 0px;
+      height: 10%;
+      border-radius: 24px;
+    }
+    
+    
+    .doctor_card{
+      border: none !important;
+    }
+    
+    .w-10{
+      width: 10% !important;
+    }
+    
+    .w-15{
+      width: 10% !important;
+    }
+    
+    .w-20{
+      width: 20% !important;
+    }
+    
+    .cardDate{
+      border: none;
+      width: 100%;
+      border-radius: 4px;
+      height: 40px;
+      padding: 0px 6px;
+      background: #7fa7a76b;
+    }
+
+    .modaldate{
+      border: none;
+      /* width: 100%; */
+      border-radius: 4px;
+      height: 40px;
+      padding: 0px 6px;
+      /* background: #7fa7a76b; */
+  }
+
+    .slotBtn{
+      background-color: #69a5a5 !important;
+      border-color: #69a5a5 !important;
+      box-shadow: 5px 3px 13px #88c1c1 !important;
+      border-radius: 24px !important;
+      color: black !important;
+    }
+
+    .slotBtn:hover{
+      background-color: #69a5a5 !important;
+      border-color: #69a5a5 !important;
+      box-shadow: 5px 3px 13px #88c1c1 !important;
+      border-radius: 24px !important;
+      transform: scale(1.1);
+      color: black !important;
+    }
+
+    .bookBtn{
+      background-color: #c9dada !important;
+      border-color: #c9dada !important;
+      color: black !important;
+    }
+
+    .accordion-button:focus {
+      z-index: 3;
+      border: none !important;
+      outline: 0;
+      box-shadow: none !important;
+  }
+
+    .accordion-button:not(.collapsed) {
+      border: none !important;
+      outline: none !important;
+      color: #fff !important;
+      background-color: #ffff !important;
+      box-shadow: none !important;
+  }
+
+    .padding{
+      padding: 0px 5px 10px !important;    
+    }
+    
+    .doctor_card_collapse{
+      background: #ffffff96 !important;
+    }
+    
+    .doctor_card.card {
+      background: #ebf3f3 !important
+    }
+    
+    .heading{
+      font-size: 50px;
+      font-weight: 400;
+      margin: 0;
+    }
+
+    .slotCont{
+    max-height: 85px;
+    overflow-y: auto;
+    }
+
+    i.fa.fa-check {
+      color: #fff;
+      font-size: 15px;
+  }
+
+  .paginate{
+    position: absolute;
+    top: 45%;
+    right: 13%;
+  }
+
+  .page-item.active .page-link {
+    z-index: 3;
+    color: #fff;
+    background-color: #69a5a5 !important;
+    border-color: #69a5a5 !important;
+}
+
+.page-link {
+  position: relative;
+  display: block;
+  color: #69a5a5 !important;
+  text-decoration: none;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.color-white{
+  color: #fff!important;
+}
+
+.color-green{
+  color: #69a5a5!important;
+}
+
+    /* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #546e6e7a;
+  border-radius: 10px;
+}
